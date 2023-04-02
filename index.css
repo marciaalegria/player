@@ -1,0 +1,73 @@
+body{
+    height: 100%;
+    background-color: gray;    
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain{
+    max-width: 768px;
+    min-width: 320px;
+    background-image: linear-gradient(black, rgba(183, 141, 141, 0.842));
+    padding: 2rem;
+    border-radius: 1rem;
+    color: blanchedalmond;
+    box-shadow: 2px 2px 3px black;
+}
+.cover{
+    width: 128px;
+    height: auto;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    height: .6rem;
+    background-color: lightgrey;
+}
+.progress_contain{
+    width: 40%;
+    background-color: goldenrod;
+    height: 100%;
+}
+.controllers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: .9rem;
+    margin-bottom: 1.5rem;
+}
+i{
+    font-size: 1.7rem;
+    color: blanchedalmond;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+.songs_list{
+    list-style: none;
+    text-decoration: none;
+}
+
+.songs_list .activo {
+    color:white;
+    font-weight: bold;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
