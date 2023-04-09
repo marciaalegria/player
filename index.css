@@ -28,9 +28,10 @@ body{
 .progress{
     height: .6rem;
     background-color: lightgrey;
+    margin-bottom: 1rem;
 }
-.progress_contain{
-    width: 40%;
+.progresscontain{
+    width: 0;
     background-color: goldenrod;
     height: 100%;
 }
